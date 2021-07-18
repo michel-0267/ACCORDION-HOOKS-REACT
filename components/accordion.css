@@ -1,0 +1,81 @@
+.m-panel-header {
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+
+  width: 90%;
+  height: 6rem;
+
+  background-color: #134d95;
+
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.2rem;
+  box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.m-panel-header h1 {
+  color: #fff;
+
+  font-family: 'Bell MT', sans-serif;
+  font-size: calc(.4rem + .9vw);
+  font-weight: 500;
+}
+
+.m-panel-header span {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-family: sans-serif;
+  font-size: calc(.4rem + 1.5vw);
+  transition: all 0.3s;
+}
+
+.m-panel-header:hover {
+  background-color: #6ca626;
+  transition: all 0.3s;
+}
+
+.m-panel-body {
+  width: 90%;
+  height: 32rem;
+
+  background-color: #333333;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.m-panel-body ul:first-child {
+  padding-top: 2rem;
+}
+
+.m-panel-body li {
+  padding: 1.2rem 1.5rem;
+  list-style: none;
+  display: block;
+}
+
+
+.m-panel-body a {
+  text-decoration: none;
+
+  color: #fff;
+  font-family: 'Bell MT', sans-serif;
+  font-size: calc(.4rem + 1.1vw);
+  font-weight: 500;
+}
+
+.m-panel-body li:hover {
+  background-color: #f29a35;
+}
+
+.animated {
+    transition: all 0.3s;
+   -ms-transform: rotate(90deg); /* IE 9 */
+    transform: rotate(90deg);
+}
